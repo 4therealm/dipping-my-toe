@@ -1,93 +1,101 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Horiseon marketing agency: search engine optimization - online reputation management - social media marketing - lead generation - brand awareness - cost management</title>
-</head>
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title>Horiseon marketing agency: search engine optimization - online reputation management - social media marketing - lead generation - brand awareness - cost management</title>
+    </head>
 
-<body>
-<!--added alt attributes to all images describing content within image-->
-<header> <!--Title and navigation-->
-    <h1>Hori<span>seo</span>n</h1> 
-    <nav>
-        <ul>
-            <li><a href ="#art1">Search engine optimization</a></li>
-            <li><a href="#art2">Online Reputation Management</a></li>
-            <li><a href="#art3">Social Media Marketing</a></li>
-        </ul>
-     </nav>
-</header>
+    <body>
+        <!--added alt attributes to all images describing content within image-->
+        <header>
+            <!--Title and navigation-->
+            <h1>Hori<span>seo</span>n</h1>
+            <nav>
+                <ul>
+                    <li><a href="#art1">Search engine optimization</a></li>
+                    <li><a href="#art2">Online Reputation Management</a></li>
+                    <li><a href="#art3">Social Media Marketing</a></li>
+                </ul>
+            </nav>
+        </header>
 
-<figure></figure><!--banner-->
+        <figure></figure>
+        <!--banner-->
 
-<section><!--refactored the <div class ="content"> into the semantic <section> then into <articles> for the child elements-->
+        <section>
+            <!--refactored the <div class ="content"> into the semantic <section> then into <articles> for the child elements-->
 
-   
-    <article id="art1"><!--id art1, art2, and art3 are used as targets for nav links located in header--> 
-        <img src="./assets/images/search-engine-optimization.jpg" alt="closeup workspace with laptop, notebook and other misc items" class="fl-left"/>        
-        <!--img class fl-left and fl-right designate positioning of content in each article-->
-        <h2>Search Engine Optimization</h2>
-        <p>
-            The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
-        </p>
-    </article>
 
-    <article id="art2">
-        <img src="./assets/images/online-reputation-management.jpg" alt="bar chart showing increase in reputation" class="fl-right">
-        <h2>Online Reputation Management</h2>
-        <p>
-            The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
-        </p>
+            <article
+                id="art1">
+                <!--id art1, art2, and art3 are used as targets for nav links located in header-->
+                <img
+                src="./assets/images/search-engine-optimization.jpg" alt="closeup workspace with laptop, notebook and other misc items" class="fl-left"/>
+                <!--img class fl-left and fl-right designate positioning of content in each article-->
+                <h2>Search Engine Optimization</h2>
+                <p>
+                    The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+                </p>
+            </article>
 
-    </article>
+            <article id="art2">
+                <img src="./assets/images/online-reputation-management.jpg" alt="bar chart showing increase in reputation" class="fl-right">
+                <h2>Online Reputation Management</h2>
+                <p>
+                    The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
+                </p>
 
-    <article id="art3">
-        <img src="./assets/images/social-media-marketing.jpg" alt="numerous solcial media affiliated logos" class="fl-left">
-        <h2>Social Media Marketing</h2>
-        <p>
-            Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
-        </p>
-    </article>
+            </article>
 
-</section>
+            <article id="art3">
+                <img src="./assets/images/social-media-marketing.jpg" alt="numerous solcial media affiliated logos" class="fl-left">
+                <h2>Social Media Marketing</h2>
+                <p>
+                    Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
+                </p>
+            </article>
 
-<aside><!--Refactored <div class ="benefits"> to the semantic <aside>-->
-       <div>
-            <h3>Lead generation</h3>
-            <img src="./assets/images/lead-generation.png" alt="gear funneling into dollar sign">
-            
+        </section>
+
+        <aside>
+            <!--Refactored <div class ="benefits"> to the semantic <aside>-->
+            <div>
+                <h3>Lead generation</h3>
+                <img src="./assets/images/lead-generation.png" alt="gear funneling into dollar sign">
+
+                <p>
+                    Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
+                </p>
+            </div>
+
+            <div>
+                <h3>Brand Awareness</h3>
+                <img src="./assets/images/brand-awareness.png" alt="lightbulb emmiting radio waves">
+                <p>
+                    Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
+                </p>
+            </div>
+
+            <div>
+                <h3>Cost Management</h3>
+                <img src="./assets/images/cost-management.png" alt="gears and dollor signs">
+                <p>
+                    As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
+                </p>
+            </div>
+        </aside>
+
+        <footer>
+            <!--refactored <div class = "footer"> with the semantic <footer>-->
+            <h4>Made with ❤️️ by Horiseon</h4>
+            <!--changed heading from <h3> to <h4> in order for headings to be sequential -->
             <p>
-                Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
+                &copy; 2019 Horiseon Social Solution Services, Inc.
             </p>
-        </div>
+        </footer>
 
-        <div>
-            <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" alt="lightbulb emmiting radio waves">
-            <p>
-                Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
-            </p>
-        </div>
-
-        <div>
-            <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png" alt="gears and dollor signs">
-            <p>
-                As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
-            </p>
-        </div>
-</aside>
-
-<footer><!--refactored <div class = "footer"> with the semantic <footer>-->
-<h4>Made with ❤️️ by Horiseon</h4>
-<!--changed heading from <h3> to <h4> in order for headings to be sequential -->
-<p>
-    &copy; 2019 Horiseon Social Solution Services, Inc.
-</p>
-</footer>
-
-</body>
+    </body>
 
 </html>
