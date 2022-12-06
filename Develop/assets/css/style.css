@@ -3,6 +3,13 @@
     padding: 0;
     margin: 0;
 }
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+p {
+    font-size: 16px;
+}
 
 body {
     background-color: #d9dcd6;
@@ -14,11 +21,11 @@ header {
     background-color: #2a607c;
     color: #ffffff;
 }
-.title {
+h1 {
     display: inline-block;
     font-size: 48px;
 }
-#seo {
+span {
     color: #d9dcd6;
 }
 
@@ -38,17 +45,7 @@ nav li {
     display: inline-block;
     margin-left: 25px;
 }
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
-.hero {
+figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -62,18 +59,15 @@ section {
     display: inline-block;
     margin-left: 20px;
 }
-
 .fl-left {
     float: left;
     margin-right: 25px;
 }
-
 .fl-right {
     float: right;
     margin-left: 25px;
 }
-
-#con-art1 {
+article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -81,46 +75,15 @@ section {
     background-color: #0072bb;
     color: #ffffff;
 }
-#con-art1 img {
-    max-height: 200px;
-}
-#con-art1 h2 {
+article h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+article img {
+    max-height: 200px;
 }
 
-#con-art2 {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-#con-art2 img {
-    max-height: 200px;
-}
-#con-art2 h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-#con-art3 {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-#con-art3 img {
-    max-height: 200px;
-}
-#con-art3 h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -130,65 +93,26 @@ section {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-.benefit-lead {
+aside div {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+aside h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-
-
-
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-.footer h2 {
     font-size: 20px;
 }
+
+
