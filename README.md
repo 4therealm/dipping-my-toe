@@ -2,7 +2,7 @@
 Assignment: 1  
 Client: Horiseon Marketing Agency  
 Due: 12/15/2022
-Link: https://4therealm.github.io/dipping-my-toe/
+Link: https://4therealm.github.io/dipping-my-toe/  
 [Screenshot](/Develop/assets/images/screenshot.png)
 
 ## Description
