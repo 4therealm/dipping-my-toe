@@ -22,7 +22,7 @@ By refactoring the code to meet accessibility standards, the website is now opti
 ## What I Learned 
 -Just because the code works, doesn't mean its the best version  
 
--Using semantics enhances the ability of screen readers to interpret the content for the user. While also reduces the number of id's and class's needed to accomplish the task.  
+-Using semantics enhances the ability of screen readers to interpret the content for the user. While also reducing the number of id's and class's needed to accomplish the task.  
 
 -The order in which problems are approached is paramount. Originally I planned to fix the code by task. Once I got my bearings I began to feel only fixing one tag in a section of code without addressing the other tasks related to that code is inefficient and avoidable repetitive. I found that refactoring one element at a time, including the Styles and comments felt smoother and provided insight for addressing the next element.   
 
