@@ -21,7 +21,8 @@ header {
     background-color: #2a607c;
     color: #ffffff;
 }
-    h1 {
+/* title */
+    h1 { 
     display: inline-block;
     font-size: 48px;
     }
@@ -30,6 +31,7 @@ header {
     }
 
     nav {
+      /* nav bar starts */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -45,8 +47,9 @@ header {
     display: inline-block;
     margin-left: 25px;
     }
+    /* nav bar ends */
 
-figure/*banner*/ {
+figure/*hero/banner*/ {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -56,6 +59,7 @@ figure/*banner*/ {
 }
 
 section {
+  /* container for the three articles */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
