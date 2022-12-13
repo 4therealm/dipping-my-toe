@@ -1,9 +1,10 @@
 # Code Refactor
 Assignment: 1  
 Client: Horiseon Marketing Agency  
-Due: 12/15/2022
-Link: https://4therealm.github.io/dipping-my-toe/  
-[Screenshot](/Develop/assets/images/screenshot.png)
+Due: 12/15/2022  
+Link: https://4therealm.github.io/semanic-refactory/    
+![screenshot of webpage](/Develop/assets/images/screenshot.png "webpage screenshot")
+
 
 ## Description
 The Agency's website was functional, but not accessible.  
