@@ -32,5 +32,3 @@ By refactoring the code to meet accessibility standards, the website is now opti
 -Include a team members section with pictures and brief bios with work experience  
 -I think there is more that can be done visually when interacting with the navigation links
 
-## License
-MIT
